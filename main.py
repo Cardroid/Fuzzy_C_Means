@@ -146,8 +146,8 @@ def FCM(data_list: List[data_point], center_point_list: List[List[float]], m: fl
 def main():
     global COLORS
 
-    data_count = 200
-    center_point_count = 5
+    data_count = 200  # 데이터 개수
+    center_point_count = 5  # 클러스터 중심점 개수
 
     COLORS.extend(random.sample(["blue", "green", "red", "cyan", "magenta", "yellow"], center_point_count))
 
